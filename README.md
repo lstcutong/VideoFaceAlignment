@@ -12,11 +12,11 @@ A simple pipline for video-based face alignment, including both 2D and 3D method
 
 
 
-![](./figs/1.png)
+![](https://github.com/lstcutong/VideoFaceAlignment/edit/master/figs/1.png)
 
 
 
-###dependencies
+### dependencies
 
 - Python 3.6
 
@@ -57,7 +57,7 @@ results = vfa.start_align_video(seq_path)
 
 ### some results
 
-![](./figs/4.png)
+![](https://github.com/lstcutong/VideoFaceAlignment/edit/master/figs/4.png)
 
 base-2d and base-3d stands for FAN-2D and FAN-3D, ada stands for AdaptiveWL
 
