@@ -7,7 +7,7 @@ from PIL import Image
 import numpy as np
 import cv2
 from FA.PRNet.api import PRN
-import MorphableModelFitting as mmf
+import VideoFace3D as vf3d
 import dlib
 from utils.common_utils import crop
 
@@ -124,7 +124,7 @@ class PRNetFaceAlignment():
 
 class DDFAFaceAlignment():
     def __init__(self):
-        self.model = mmf.FaceLandmarkDetector("3D")
+        self.model = vf3d.FaceLandmarkDetector("3D")
 
     def align(self, image_path):
         rects = [[0, 0, 224, 224]]
