@@ -1,6 +1,6 @@
 # VideoFaceAlignment
 
-A simple pipline for video-based face alignment, including both 2D and 3D methods. We ensemble 4 state-of-the-art single-image-based face alignment methods to implement video-based face alignment by aligning face frame-by-frame, we also provide a simple post process method called "trajectory-smooth" to get better alignment results. 4 SOTA single-image-based methods are follows:
+A simple pipline for video-based face alignment, including both 2D and 3D methods. We ensemble 4 state-of-the-art single-image-based face alignment methods to implement video-based face alignment by aligning face frame-by-frame, we also provide a simple post process method called "trajectory-smooth"（The effect is similar to 'anti jitter'） to get better alignment results. 4 SOTA single-image-based methods are follows:
 
 **FAN**: [https://github.com/1adrianb/face-alignment](https://github.com/1adrianb/face-alignment)
 
@@ -12,11 +12,11 @@ A simple pipline for video-based face alignment, including both 2D and 3D method
 
 
 
-![](./figs/1.png)
+![](https://github.com/lstcutong/VideoFaceAlignment/raw/master/figs/1.png)
 
 
 
-###dependencies
+### dependencies
 
 - Python 3.6
 
@@ -57,7 +57,7 @@ results = vfa.start_align_video(seq_path)
 
 ### some results
 
-![](./figs/4.png)
+![](https://github.com/lstcutong/VideoFaceAlignment/raw/master/figs/4.png)
 
 base-2d and base-3d stands for FAN-2D and FAN-3D, ada stands for AdaptiveWL
 
