@@ -1,6 +1,6 @@
 # VideoFaceAlignment
 
-A simple pipline for video-based face alignment, including both 2D and 3D methods. We ensemble 4 state-of-the-art single-image-based face alignment methods to implement video-based face alignment by aligning face frame-by-frame, we also provide a simple post process method called "trajectory-smooth" to get better alignment results. 4 SOTA single-image-based methods are follows:
+A simple pipline for video-based face alignment, including both 2D and 3D methods. We ensemble 4 state-of-the-art single-image-based face alignment methods to implement video-based face alignment by aligning face frame-by-frame, we also provide a simple post process method called "trajectory-smooth"（The effect is similar to 'anti jitter'） to get better alignment results. 4 SOTA single-image-based methods are follows:
 
 **FAN**: [https://github.com/1adrianb/face-alignment](https://github.com/1adrianb/face-alignment)
 
